@@ -4,11 +4,12 @@ import { AppComponent } from './app.component';
 import { HttpClientModule, HttpClient} from '@angular/common/http';
 import{UsersService} from './users.service';
 import { Employeelistcomponent } from './usersdata.component';
+import { TaskingitComponent } from './taskingit/taskingit.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,Employeelistcomponent
+    AppComponent,Employeelistcomponent, TaskingitComponent
   ],
   imports: [
     BrowserModule,
